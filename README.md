@@ -43,7 +43,7 @@ Test data is located in `test_data/` and contains:
 conda create -n nf -c bioconda nextflow=24.10.5 -y
 ```
 
-### 2. Activate and run
+### 2. Activate and run example
 
 ```bash
 conda activate nf
@@ -71,15 +71,6 @@ nextflow run main.nf -profile conda \
   --outdir /path/to/output
 ```
 
-## Tool Versions (managed by conda)
-
-| Tool | Version | Conda env file |
-|------|---------|----------------|
-| fastp | 0.23.4 | `envs/fastp.yml` |
-| skesa | 2.5.1 | `envs/skesa.yml` |
-| mlst | 2.23.0 | `envs/mlst.yml` |
-| fastANI | 1.34 | `envs/fastani.yml` |
-
 ## Repository Structure
 
 ```
@@ -99,7 +90,7 @@ nextflow run main.nf -profile conda \
 ├── test_data/           # Mini test dataset
 ├── bin/
 │   └── generate_test_data.sh
-├── assets/
-│   └── workflow_dag.png # Pipeline diagram
 └── README.md
 ```
+
+AI Attestation: README.md file was generated with AI. 
