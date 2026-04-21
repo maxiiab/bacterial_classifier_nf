@@ -24,16 +24,16 @@
 
 ## Test Data
 
-To generate the test data from scratch:
-
-```bash
-bash bin/generate_test_data.sh
-```
-
 Test data is located in `test_data/` and contains:
 
 - `ecoli_1.fastq.gz` / `ecoli_2.fastq.gz` — Mini paired-end reads (~1,000 read pairs) from *E. coli* accession **SRR10971381**
 - `reference.fna` — *E. coli* K-12 MG1655 reference genome (GCF_000005845.2)
+
+To regenerate the test data from scratch:
+
+```bash
+bash bin/generate_test_data.sh
+```
 
 ## Quick Start
 
@@ -71,6 +71,9 @@ nextflow run main.nf -profile conda \
   --outdir /path/to/output
 ```
 
+## Workflow Diagram 
+![Alt Text](assets/workflow_diagram.png)
+
 ## Repository Structure
 
 ```
@@ -92,5 +95,3 @@ nextflow run main.nf -profile conda \
 │   └── generate_test_data.sh
 └── README.md
 ```
-
-AI Attestation: README.md file was generated with AI. 
