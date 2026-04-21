@@ -1,0 +1,6 @@
+# FROM: conda create -n fastani -c bioconda fastani -y
+name: fastani
+channels:
+  - bioconda
+dependencies:
+  - fastani

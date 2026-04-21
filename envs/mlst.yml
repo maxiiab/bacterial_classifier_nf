@@ -1,0 +1,9 @@
+# mlst was having issues – ripped from https://github.com/BCCDC-PHL/mlst-nf
+name: mlst
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3
+  - mlst=2.16.1
+  - quast=5.0.2

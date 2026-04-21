@@ -1,0 +1,6 @@
+# FROM: conda install bioconda::fastp -y
+name: fastp
+channels:
+  - bioconda
+dependencies:
+  - fastp
